@@ -17,7 +17,10 @@
     "build:local-mcp": "bun run --filter @dev_aditya_joshi/sendkit-mcp build",
     "dev:cli": "bun run packages/cli/src/index.ts",
     "dev:local-mcp": "bun run packages/local-mcp/src/index.ts",
-    "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts"
+    "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts",
+    "release:pack:core": "bun run --filter @dev_aditya_joshi/sendkit-core pack:dry",
+    "release:pack:cli": "bun run --filter @dev_aditya_joshi/sendkit pack:dry",
+    "release:pack:local-mcp": "bun run --filter @dev_aditya_joshi/sendkit-mcp pack:dry"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
