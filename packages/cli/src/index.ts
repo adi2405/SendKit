@@ -2,7 +2,7 @@ import { z } from "zod";
 import { homedir } from "node:os";
 import { Command } from "commander";
 import { dirname, join } from "node:path";
-import { sendTelegramMessage } from "sendkit-core";
+import { sendTelegramMessage } from "@dev_aditya_joshi/sendkit-core";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const program = new Command();
